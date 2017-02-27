@@ -1,7 +1,7 @@
 const fs   = require('fs');
 const path = require('path');
 const yaml = require('js-yaml');
-const YamlFileMetaData = require('./YamlFileMetaData.js');
+const YamlFileMetaData = require('./yamlFileMetaData.js');
 
 const postHead = /---((.|\n)*?)---/;
 
